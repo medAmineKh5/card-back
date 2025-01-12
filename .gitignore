@@ -29,8 +29,20 @@
 /bin/*
 !bin/console
 !bin/symfony_requirements
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
 /vendor/
 
+# IDEs and editors
+/.idea/
+/*.iml
+/.vscode/
 # Assets and user uploads
 /web/bundles/
 /web/uploads/
